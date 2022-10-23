@@ -7,8 +7,8 @@ function Spa() {
           users: [
             {
               id: 1,
-              name: "Michael",
-              email: "mike@gmail.com",
+              name: "Ashlea",
+              email: "aln@gmail.com",
               password: "secret123",
               balance: 50,
             },
