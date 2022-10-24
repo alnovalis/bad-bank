@@ -12,7 +12,7 @@ function Home(){
     <Card
       txtcolor="black"
       bgcolor="red"
-      header="BadBank Landing Module"
+      header="Bad Bank Landing Module"
       title={welcomeMessage}
       text={textMessage}
       body={(<img src="bank.png" className="img-fluid" alt="Responsive image"/>)}
