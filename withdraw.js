@@ -11,7 +11,7 @@ function Withdraw() {
       bgcolor="primary"
       header="Withdraw"
       withdraw={handle}
-      submitButtonWithdraw="Withdrawl Successful"
+      submitButtonWithdraw="Withdrawal Successful"
     />
   );
 }
