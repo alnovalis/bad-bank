@@ -15,7 +15,7 @@ function Home(){
       header="BadBank Landing Module"
       title={welcomeMessage}
       text={textMessage}
-      body={(<img src="bank.png" className="img-fluid" alt="Responsive image" style="width: 5rem"/>)}
+      body={(<img src="bank.png" className="img-fluid" alt="Responsive image"/>)}
     />    
   );  
 }
