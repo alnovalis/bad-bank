@@ -1,6 +1,7 @@
 function Home() {
   return (
     <Card
+      style="width: 8rem;"
       bgcolor="primary"
       txtcolor="light"
       header="BadBank Landing Module"
