@@ -15,7 +15,7 @@ function Spa() {
           ],
         }}
       >
-        <div className="container" style={{ padding: "100px" }}>
+        <div className="container" style={{ padding: "20px" }}>
           <Route path="/" exact component={Home} />
           <Route path="/CreateAccount/" component={CreateAccount} />
           <Route path="/login/" component={Login} />
