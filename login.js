@@ -1,14 +1,16 @@
 function Login() {
-  function handle() {
+
+  function handle () {
     return true;
   }
 
   return (
-    <Card
-      bgcolor="primary"
-      header="Account Login"
-      login={handle}
-      submitButtonLogin="Welcome to Bad Bank!"
-    />
-  );
+      <Card
+        bgcolor="primary"
+        header="Account Login"
+        login={handle}
+        submitButtonLogin="Welcome to Bad Bank!"
+      
+      />
+  )
 }
