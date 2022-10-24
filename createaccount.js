@@ -8,7 +8,7 @@ function CreateAccount(){
 
   function validate(field, label){
       if (!field) {
-        setStatus('Error: ' + 'missing' + label);
+        setStatus('Error: ' + 'missing ' + label);
         setTimeout(() => setStatus(''),3000);
         return false;
       }
