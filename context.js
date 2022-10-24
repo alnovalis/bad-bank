@@ -37,7 +37,11 @@ function Card(props) {
             alert("Invalid output, positive numbers only");
             return false;
         }
-    }
+    if (field === deposit) {
+        if (deposit isNaN(x)) {
+            alert("Not a number!");
+            return false;
+        }
     if (field === withdraw) {
         if (withdraw <= 0) {
             alert("Invalid output, positive numbers only");
