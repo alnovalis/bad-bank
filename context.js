@@ -208,7 +208,7 @@ function Card(props) {
                   Withdrawal Amount<br/>
                   <input type="number" className="form-control" id="withdraw" placeholder="Enter Withdrawal Amount" value={withdraw} onChange={e => setWithdraw(e.currentTarget.value)} /><br/>
       
-                  <button type="submit" className="btn btn-light" onClick={handleWithdraw} >Withdrawl</button>
+                  <button type="submit" className="btn btn-light" onClick={handleWithdraw} >Withdrawal</button>
                   </>
                 ) : (props.submitButtonWithdraw && (
                     <>
