@@ -38,7 +38,7 @@ function Card(props) {
             return false;
         }
     if (field === deposit) {
-        if (deposit isNaN(x)) {
+        if (deposit ===NaN(x)) {
             alert("Not a number!");
             return false;
         }
