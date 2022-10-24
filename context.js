@@ -98,10 +98,10 @@ function Card(props) {
 
     function handleWithdraw() {
         if (!validate(name,    'name'))       return;
-        if (!validate(withdraw,  'withdrawl'))    return;
+        if (!validate(withdraw,  'withdrawal'))    return;
         if (name === users[currentUserIndex].name){
             if ((Number(withdraw)) <= balance) {
-                console.log(name, `Withdrawl amount: ${withdraw}`);
+                console.log(name, `Withdrawal amount: ${withdraw}`);
                 users[currentUserIndex].balance -= Number(withdraw);
                 setShow(false);
             } else {
@@ -205,15 +205,15 @@ function Card(props) {
                   Account Name<br/>
                   <input type="input" className="form-control" id="name" placeholder="Enter Name" value={name} onChange={e => setName(e.currentTarget.value)} /><br/>
                   
-                  Withdrawl Amount<br/>
-                  <input type="number" className="form-control" id="withdraw" placeholder="Enter Withdrawl Amount" value={withdraw} onChange={e => setWithdraw(e.currentTarget.value)} /><br/>
+                  Withdrawal Amount<br/>
+                  <input type="number" className="form-control" id="withdraw" placeholder="Enter Withdrawal Amount" value={withdraw} onChange={e => setWithdraw(e.currentTarget.value)} /><br/>
       
                   <button type="submit" className="btn btn-light" onClick={handleWithdraw} >Withdrawl</button>
                   </>
                 ) : (props.submitButtonWithdraw && (
                     <>
                     <div className="card text-white text-center bg-success mb-3">
-                      <h5>Successful Withdrawl</h5>
+                      <h5>Successful Withdrawal</h5>
                     </div>
                     <button type="submit" className="btn btn-warning" onClick={clearForm} >Make another Transaction</button>
                     </>
